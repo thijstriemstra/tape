@@ -15,7 +15,7 @@ def get_install_requirements():
     Returns a list of dependancies for Tape to function correctly on the
     target platform.
     """
-    install_requires = ["PyAMF >= 0.5"]
+    install_requires = ['PyAMF>=0.5.1', 'zope.interface']
 
     return install_requires
 
@@ -40,13 +40,13 @@ setup(name = "Tape",
       license = "LGPL License",
       platforms = ["any"],
       classifiers = [
-	"Development Status :: 1 - Planning",
-	"Natural Language :: English",
-	"Intended Audience :: Developers",
+    "Development Status :: 1 - Planning",
+    "Natural Language :: English",
+    "Intended Audience :: Developers",
     "Intended Audience :: Information Technology",
-	"License :: OSI Approved :: LGPL License",
-	"Operating System :: OS Independent",
-	"Programming Language :: Python",
+    "License :: OSI Approved :: LGPL License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
     "Programming Language :: Python :: 2.3",
     "Programming Language :: Python :: 2.4",
     "Programming Language :: Python :: 2.5",
