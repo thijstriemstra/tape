@@ -14,7 +14,7 @@ list if you're new, need help, or want to know more about Tape.
 ----
 
 `Subscribe <http://lists.collab.eu/mailman/listinfo/tape-dev>`__ -
-`Archives <http://lists.collab.eu/archives/tape-dev>`__ -
+`Archives <http://lists.collab.eu/archives/tape-dev>`__
 
 
 Announce

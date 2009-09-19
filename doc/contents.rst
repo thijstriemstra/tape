@@ -9,5 +9,4 @@
 
    about.rst
    bugs.rst
-   copyright.rst
    license.rst

@@ -2,6 +2,24 @@
 {% block tables %}
 
   <table class="contentstable" align="center"><tr>
+    <td width="50%">
+      <p><a class="biglink" href="{{ pathto("community/download") }}">Download</a><br/>
+         <span class="linkdescr">Stable releases and source access</span></p>
+      <p class="biglink">Installation<br/>
+         <span class="linkdescr">Setting up your system</span></p>
+      </td><td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("community/mailinglist") }}">Mailing List</a><br/>
+         <span class="linkdescr">Get in touch</span></p>
+      <p class="biglink">IRC Channel<br/>
+         <span class="linkdescr">Get in touch</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("license") }}">License</a><br/>
+         <span class="linkdescr">LGPL Licensed</span></p>
+      </td></tr>
+  </table>
+
+<hr/>
+
+  <table class="contentstable" align="center"><tr>
     <td width="100%">
       <p ><a class="biglink" href="{{ pathto("whatsnew/" + version) }}">What's new in Tape {{ version }}?</a><br/>
          <span class="linkdescr">Changes since the previous major release</span></p>
@@ -16,7 +34,6 @@
       <p class="biglink"><a class="biglink" href="{{ pathto("about") }}">About the documentation</a></p>
     </td><td width="50%">
       <p class="biglink"><a class="biglink" href="{{ pathto("license") }}">License of Tape</a></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("copyright") }}">Copyright</a></p>
     </td></tr>
   </table>
 {% endblock %}
