@@ -1,0 +1,14 @@
+**************************
+  What's New in Tape 0.1
+**************************
+
+:Release: |release|
+:Date: |today|
+
+This article explains the new features in Tape |release|. No release date for Tape |release| has been set.
+
+.. contents::
+
+
+Highlighted Features
+====================

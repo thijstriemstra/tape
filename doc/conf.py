@@ -30,7 +30,7 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8'
 
 # The master toctree document.
-#master_doc = 'index'
+master_doc = 'contents'
 
 # Location of the Tape source root folder.
 sys.path.insert(0, os.path.abspath('../../tape'))
@@ -93,9 +93,15 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output ---------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  Major themes that come with
-# Sphinx are currently 'default' and 'sphinxdoc'.
-html_theme = 'default.css'
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['html/static']
+
+# The style sheet to use for HTML and HTML Help pages. A file of that name
+# must exist either in Sphinx' static/ path, or in one of the custom paths
+# given in html_static_path.
+html_style = 'default.css'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -120,11 +126,6 @@ html_title = '%s - %s' % (project, description)
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #html_favicon = None
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['html/static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -170,7 +171,7 @@ html_show_sourcelink = False
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pyamf' + release.replace('.', '')
+htmlhelp_basename = 'tape' + release.replace('.', '')
 
 
 # -- Options for LaTeX output --------------------------------------------------
