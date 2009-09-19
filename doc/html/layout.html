@@ -1,0 +1,17 @@
+{% extends "!layout.html" %}
+{% block document %}
+<div>
+<a class="toplogo" href="{{ pathto('index') }}"><img src="{{ pathto('_static/logo.png', 1) }}" border="0"/></a>
+</div>
+{{ super() }}
+{% endblock %}
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+{% block footer %}
+<div class="footer">
+{{ copyright }}
+</div>
+{% endblock %}
+{% block rootrellink %}
+{{ super() }}
+{% endblock %}
